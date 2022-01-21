@@ -8,7 +8,7 @@ for (const clothing of products) {
     let getClothes = clothing;
 
     if(getClothes.includes('Camiseta')){
-        console.log(getClothes);
+        console.log("Solución de la Iteración 1: " + getClothes);
     }
     
 }
@@ -26,6 +26,9 @@ const alumns = [
 	{name: 'Raquel Benito', T1: true, T2: true, T3: true}
 ];
 
+for (const key in alumns) {
+  
+}
 
 
 //Iteración #3: Probando For...of
@@ -33,6 +36,10 @@ const alumns = [
 // Puedes usar este array:
 const placesToTravelOne = ['Japon', 'Venecia', 'Murcia', 'Santander', 'Filipinas', 'Madagascar'];
 
+for (const city of placesToTravelOne) {
+    let location = city;
+    console.log("Solución de la Iteración 3: " + location);
+}
 
 
 // Iteración #4: Probando For...in
@@ -44,6 +51,10 @@ const alien = {
     weight: '259kg'
 }
 
+for (const key in alien) {
+    let alienInfo = alien[key];
+    console.log("Solución de la Iteración 4: " + alienInfo);
+}
 
 
 // Iteración #5: Probando For
